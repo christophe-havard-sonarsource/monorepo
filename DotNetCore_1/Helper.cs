@@ -29,11 +29,5 @@ public static class Helper {
         public static void DoNothing(string useless){
              // do nothing
         }
-        public static int ComputeWithSomeRecursion(int num, int inc)
-        {
-            num = num * ComputeWithSomeRecursion(num, inc-1);
-            
-            return num;
-        }
 }
 }
