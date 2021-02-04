@@ -1,0 +1,164 @@
+
+ySurfrider.Jobs.Recurring.PowerBIFillDatabase.Run(Microsoft.Azure.WebJobs.TimerInfo, Microsoft.Extensions.Logging.ILogger)Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs! ($"0*¢,
+0Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs 1(S´
+®
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs) (E
+%0string"&Surfrider.Helper.GetConnectionString()*"
+Surfrider.Helperì
+ê
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs (E
+%1string"__concat*
+
+USING *
+
+%0string±
+Æ
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs (F
+
+%2void" System.Console.WriteLine(string)*"
+System.Console*
+
+%1string´
+®
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs+ (G
+%3string"&Surfrider.Helper.GetConnectionString()*"
+Surfrider.Helperõò
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs (H
+%4Surfrider.PostgreDatabase"Surfrider.PostgreDatabase—
+Œ
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs (*
+
+%5void"1Surfrider.PostgreDatabase.PostgreDatabase(string)*!
+
+%4Surfrider.PostgreDatabase*
+
+%3string€
+ÿ
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs (HQ.
+,Surfrider.Jobs.Recurring.PowerBIFillDatabase"
+DatabaseSurfrider.IDatabase"__id*!
+
+%4Surfrider.PostgreDatabase§
+°
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs ((
+%6System.DateTime"System.DateTime.Now.get*"
+System.DateTimeú
+ô
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs ((
+	startedOnSystem.DateTime"__id*
+
+%6System.DateTime•
+¢
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs (:6
+newCampaignsIds#System.Collections.Generic.IList<T>"__id*
+""~|
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs  (P
+%7System.Guid"System.Guidƒ
+¡
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs$ ((
+
+%8void"System.Guid.Guid(string)*
+
+%7System.Guid*(&
+$d115922a-3ca9-49f7-b363-06c9383b6563~|
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs  (P
+%9System.Guid"System.Guid≈
+¬
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs$ ((
+%10void"System.Guid.Guid(string)*
+
+%9System.Guid*(&
+$2155da04-c2bb-433b-9a90-8ec8b8d74ee9…
+∆
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs!! !(C
+%11string"mSurfrider.Jobs.Recurring.PowerBIFillDatabase.FormatGuidsForSQL(System.Collections.Generic.IList<System.Guid>)*0".
+,Surfrider.Jobs.Recurring.PowerBIFillDatabase*8
+6
+newCampaignsIds#System.Collections.Generic.IList<T>∆
+√
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs! !(CN.
+,Surfrider.Jobs.Recurring.PowerBIFillDatabase"
+ListOfCampaignsIdsstring"__id*
+
+%11string≤
+Ø
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs# #(W"
+%12System.Threading.Tasks.Task"BSurfrider.Jobs.Recurring.PowerBIFillDatabase.ExecuteScript(string)*0".
+,Surfrider.Jobs.Recurring.PowerBIFillDatabase*75
+3./SqlScripts/2_update_campaign_trajectory_point.sql§
+°
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs$ $(I"
+%13System.Threading.Tasks.Task"BSurfrider.Jobs.Recurring.PowerBIFillDatabase.ExecuteScript(string)*0".
+,Surfrider.Jobs.Recurring.PowerBIFillDatabase*)'
+%./SqlScripts/3_insert_bi_campaign.sql¥
+±
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs% %(Y"
+%14System.Threading.Tasks.Task"BSurfrider.Jobs.Recurring.PowerBIFillDatabase.ExecuteScript(string)*0".
+,Surfrider.Jobs.Recurring.PowerBIFillDatabase*97
+5./SqlScripts/4_insert_bi_campaign_distance_to_sea.sql™
+ß
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs& &(O"
+%15System.Threading.Tasks.Task"BSurfrider.Jobs.Recurring.PowerBIFillDatabase.ExecuteScript(string)*0".
+,Surfrider.Jobs.Recurring.PowerBIFillDatabase*/-
++./SqlScripts/6_insert_bi_campaign_river.sql¢
+ü
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs' '(G"
+%16System.Threading.Tasks.Task"BSurfrider.Jobs.Recurring.PowerBIFillDatabase.ExecuteScript(string)*0".
+,Surfrider.Jobs.Recurring.PowerBIFillDatabase*'%
+#./SqlScripts/7_get_bi_rivers_id.sql°
+û
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs( ((F"
+%17System.Threading.Tasks.Task"BSurfrider.Jobs.Recurring.PowerBIFillDatabase.ExecuteScript(string)*0".
+,Surfrider.Jobs.Recurring.PowerBIFillDatabase*&$
+"./SqlScripts/8_update_bi_trash.sqlß
+§
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs) )(L"
+%18System.Threading.Tasks.Task"BSurfrider.Jobs.Recurring.PowerBIFillDatabase.ExecuteScript(string)*0".
+,Surfrider.Jobs.Recurring.PowerBIFillDatabase*,*
+(./SqlScripts/9_insert_bi_trash_river.sql¢
+ü
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs* *(G"
+%19System.Threading.Tasks.Task"BSurfrider.Jobs.Recurring.PowerBIFillDatabase.ExecuteScript(string)*0".
+,Surfrider.Jobs.Recurring.PowerBIFillDatabase*'%
+#./SqlScripts/10_update_bi_river.sql€
+ÿ
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs1 1(T
+%20void" System.Console.WriteLine(string)*"
+System.Console*75
+3-------------------- ALL DONE ---------------------*
+1*“
+1Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs3	 3(	"q
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.cs3 3(	
+implicit return:,
+myTimer!Microsoft.Azure.WebJobs.TimerInfo:.
+logger$Microsoft.Extensions.Logging.ILoggerB0".
+,Surfrider.Jobs.Recurring.PowerBIFillDatabase

@@ -1,0 +1,121 @@
+
+4Surfrider.Helper.GetKeyVaultConnectionString(string)M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs
+ 
+(9"0*ñ
+0M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (¿
+¼
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs" (V
+%0string"1System.Environment.GetEnvironmentVariable(string)*"
+System.Environment*
+KEY_VAULT_NAME
+}
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (V
+keyVaultNamestring"__id*
+
+%0string’
+
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (1
+%1string"__concat*
+
+https://*
+
+keyVaultNamestring
+
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (F
+%2string"__concat*
+
+%1string*
+.vault.azure.netx
+v
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (F
+kvUristring"__id*
+
+%2stringom
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs* (8
+%3
+System.Uri"
+System.Uri
+š
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs. (1
+
+%4void"System.Uri.Uri(string)*
+
+%3
+System.Uri*
+
+kvUristring¦£
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs: (V+
+%5%Azure.Identity.DefaultAzureCredential"%Azure.Identity.DefaultAzureCredentialÙ
+Ö
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs> (T
+
+%6void"BAzure.Identity.DefaultAzureCredential.DefaultAzureCredential(bool)*-
++
+%5%Azure.Identity.DefaultAzureCredential*
+""´±
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (W2
+%7,Azure.Security.KeyVault.Secrets.SecretClient",Azure.Security.KeyVault.Secrets.SecretClientº
+·
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs ()
+
+%8void"aAzure.Security.KeyVault.Secrets.SecretClient.SecretClient(System.Uri, Azure.Core.TokenCredential)*4
+2
+%7,Azure.Security.KeyVault.Secrets.SecretClient*
+
+%3
+System.Uri*-
++
+%5%Azure.Identity.DefaultAzureCredentialÆ
+Ã
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (W6
+client,Azure.Security.KeyVault.Secrets.SecretClient"__id*4
+2
+%7,Azure.Security.KeyVault.Secrets.SecretClientøõ
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs$ (@
+%9Azure.Response<T>"jAzure.Security.KeyVault.Secrets.SecretClient.GetSecret(string, string, System.Threading.CancellationToken)*8
+6
+client,Azure.Security.KeyVault.Secrets.SecretClient*
+
+
+secretNamestring*
+""*
+""2=GetSecret(string, string, System.Threading.CancellationToken)­
+ª
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (@8
+secret.Azure.Security.KeyVault.Secrets.KeyVaultSecret"__id*
+
+%9Azure.Response<T>×
+Ô
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (
+%10string"8Azure.Security.KeyVault.Secrets.KeyVaultSecret.Value.get*:
+8
+secret.Azure.Security.KeyVault.Secrets.KeyVaultSecret"`
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs ( 
+
+%10string*¸
+1M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs	 (	"d
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (	
+implicit return:
+
+secretNamestringB"
+Surfrider.Helper

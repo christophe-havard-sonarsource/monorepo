@@ -1,0 +1,6 @@
+projectKey=PROJ_test-monorepo
+serverUrl=https://chvd.eu.ngrok.io
+serverVersion=8.7.0.41098
+dashboardUrl=https://chvd.eu.ngrok.io/dashboard?id=PROJ_test-monorepo
+ceTaskId=AXdt2DxJ31n_Z8BDXfuI
+ceTaskUrl=https://chvd.eu.ngrok.io/api/ce/task?id=AXdt2DxJ31n_Z8BDXfuI

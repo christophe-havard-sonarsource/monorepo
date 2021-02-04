@@ -1,0 +1,135 @@
+
+iSurfrider.PostgreDatabase.ExecuteNonQuery(string, System.Collections.Generic.IDictionary<string, object>)V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs (."0*ò
+0V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs (C¨
+©
+V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs3 (C
+%0string"__id*;*9
+Surfrider.PostgreDatabase"
+ConnectionStringstringìê
+V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs (D
+%1Npgsql.NpgsqlConnection"Npgsql.NpgsqlConnection 
+«
+V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs" (2
+
+%2void"0Npgsql.NpgsqlConnection.NpgsqlConnection(string)*
+
+%1Npgsql.NpgsqlConnection*
+
+%0string£
+†
+V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs (D
+connNpgsql.NpgsqlConnection"__id*
+
+%1Npgsql.NpgsqlConnection*
+1*Í
+1V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs (4™
+ß
+V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs (
+
+%3void"Npgsql.NpgsqlConnection.Open()*!
+
+connNpgsql.NpgsqlConnectionçä
+V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs! (4
+%4Npgsql.NpgsqlCommand"Npgsql.NpgsqlCommand´
+®
+V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs% (2
+
+%5void"$Npgsql.NpgsqlCommand.NpgsqlCommand()*
+
+%4Npgsql.NpgsqlCommandú
+ô
+V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs (4
+cmdNpgsql.NpgsqlCommand"__id*
+
+%4Npgsql.NpgsqlCommand*
+2*à
+2V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs (+·
+ﬁ
+V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs ()
+%6Npgsql.NpgsqlConnection"#Npgsql.NpgsqlCommand.Connection.set*
+
+cmdNpgsql.NpgsqlCommand*!
+
+connNpgsql.NpgsqlConnection¡
+æ
+V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs (+
+%7string"$Npgsql.NpgsqlCommand.CommandText.set*
+
+cmdNpgsql.NpgsqlCommand*
+
+querystring*
+3*c
+3V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs 	  (	*
+4
+5*ä
+4V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs (F«
+ƒ
+V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs (&&
+%8 Npgsql.NpgsqlParameterCollection"#Npgsql.NpgsqlCommand.Parameters.get*
+
+cmdNpgsql.NpgsqlCommandË
+Â
+V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs4 (;
+%9string"=System.Collections.Generic.KeyValuePair<TKey, TValue>.Key.get*>
+<
+arg5System.Collections.Generic.KeyValuePair<TKey, TValue>Î
+Ë
+V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs= (F
+%10object"?System.Collections.Generic.KeyValuePair<TKey, TValue>.Value.get*>
+<
+arg5System.Collections.Generic.KeyValuePair<TKey, TValue>Ñ
+Å
+V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs (G
+%11Npgsql.NpgsqlParameter"=Npgsql.NpgsqlParameterCollection.AddWithValue(string, object)*(
+&
+%8 Npgsql.NpgsqlParameterCollection*
+
+%9string*
+
+%10object*
+3*ú
+5V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs (;‹
+Ÿ
+V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs! (;+
+%12$System.Threading.Tasks.Task<TResult>"3System.Data.Common.DbCommand.ExecuteNonQueryAsync()*
+
+cmdNpgsql.NpgsqlCommand"`
+V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs (<
+""*`
+6V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs 	  (	*
+7*`
+7V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs 	  (	*
+8* 
+8V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs 	  (	"m
+V
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PostgreDatabase.cs   (	
+implicit return:
+querystring:<
+args4System.Collections.Generic.IDictionary<TKey, TValue>B
+Surfrider.PostgreDatabase

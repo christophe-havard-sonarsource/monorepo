@@ -1,0 +1,53 @@
+
+&Surfrider.Helper.GetConnectionString()M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (0"0*Õ
+0M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (\Ì
+É
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (Q
+%0string"1System.Environment.GetEnvironmentVariable(string)*"
+System.Environment*
+AZURE_FUNCTIONS_ENVIRONMENT©
+¦
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (\
+
+%1bool""string.operator !=(string, string)*
+"
+string*
+
+%0string*	
+Local*
+1
+2*ˆ
+1M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (UÒ
+Ï
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (V
+%2string"4Surfrider.Helper.GetKeyVaultConnectionString(string)*"
+Surfrider.Helper*$"
+ db-plastico-dev-connectionstring"_
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (W
+
+%2string*ù
+2M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (NÃ
+À
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (O
+%3string"1System.Environment.GetEnvironmentVariable(string)*"
+System.Environment*
+postgre_connection"_
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (P
+
+%3string*¸
+3M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs	 (	"d
+M
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.cs (	
+implicit returnB"
+Surfrider.Helper

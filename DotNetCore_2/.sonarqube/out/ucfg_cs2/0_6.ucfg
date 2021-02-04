@@ -1,0 +1,62 @@
+
+†Surfrider.Common.Extensions.DictionaryExtensions.TryGetValue<T>(System.Collections.Generic.IDictionary<string, object>, string, out T)Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/DictionaryExtension.cs (("0*µ
+0Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/DictionaryExtension.cs (8ËÈ
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/DictionaryExtension.cs (9
+
+%0bool"RSystem.Collections.Generic.IDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*D
+B
+
+dictionary4System.Collections.Generic.IDictionary<TKey, TValue>*
+
+keystring*
+
+valueObjobject2TryGetValue(TKey, out TValue)*
+1
+2*g
+1Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/DictionaryExtension.cs= (J*
+3
+2*Â
+3Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/DictionaryExtension.cs (€
+~
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/DictionaryExtension.cs (#
+%1"__id*
+
+valueObjobjectx
+v
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/DictionaryExtension.cs (#
+
+valueT"__id*
+
+%1"d
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/DictionaryExtension.cs (
+""*¿
+2Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/DictionaryExtension.cs (x
+v
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/DictionaryExtension.cs (
+
+valueT"__id*
+"""d
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/DictionaryExtension.cs (
+""*Ò
+4Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/DictionaryExtension.cs	 (	"q
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/DictionaryExtension.cs (	
+implicit return:B
+
+dictionary4System.Collections.Generic.IDictionary<TKey, TValue>:
+keystring:
+
+valueTB4"2
+0Surfrider.Common.Extensions.DictionaryExtensions

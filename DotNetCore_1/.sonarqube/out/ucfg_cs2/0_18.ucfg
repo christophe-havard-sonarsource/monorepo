@@ -1,0 +1,140 @@
+
+óSurfrider.Jobs.Recurring.PowerBIFillDatabase.InsertLog(System.DateTime, Surfrider.Jobs.Recurring.OperationStatus, Microsoft.Extensions.Logging.ILogger)Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csL" L(+"0*Æ
+0Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csN X(8§
+°
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csN N()
+%0System.DateTime"System.DateTime.Now.get*"
+System.DateTimeù
+ö
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csN N()
+
+finishedOnSystem.DateTime"__id*
+
+%0System.DateTimeä
+á
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csO O(4
+%1System.TimeSpan"<System.DateTime.operator -(System.DateTime, System.DateTime)*"
+System.DateTime*
+
+
+finishedOnSystem.DateTime*
+
+	startedOnSystem.DateTimeû
+õ
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csO O(4
+elapsedTimeSystem.TimeSpan"__id*
+
+%1System.TimeSpan
+}
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csQ Q(m
+commandstring"__id*
+""œÃ
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csR/ R(O9
+%23System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>Í
+Á
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csR3 R(M
+
+%3void"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*;
+9
+%23System.Collections.Generic.Dictionary<TKey, TValue>‡
+›
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csR( R(O<
+args4System.Collections.Generic.IDictionary<TKey, TValue>"__id*;
+9
+%23System.Collections.Generic.Dictionary<TKey, TValue>ö
+ó
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csS S(*
+%4System.Guid"System.Guid.NewGuid()*"
+System.Guid”
+–
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csS S(+
+
+%5void"__mapSet*>
+<
+args4System.Collections.Generic.IDictionary<TKey, TValue>*
+@id*
+
+%4System.GuidÂ
+‚
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csT T(-
+
+%6void"__mapSet*>
+<
+args4System.Collections.Generic.IDictionary<TKey, TValue>*
+
+@startedOn*
+
+	startedOnSystem.DateTimeÁ
+‰
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csU U(/
+
+%7void"__mapSet*>
+<
+args4System.Collections.Generic.IDictionary<TKey, TValue>*
+@finishedOn*
+
+
+finishedOnSystem.DateTime±
+Æ
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csV% V(=
+%8double" System.TimeSpan.TotalSeconds.get* 
+
+elapsedTimeSystem.TimeSpan◊
+‘
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csV V(>
+
+%9void"__mapSet*>
+<
+args4System.Collections.Generic.IDictionary<TKey, TValue>*
+@elapsedTime*
+
+%8doubleÀ
+»
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csW W(2
+%10void"__mapSet*>
+<
+args4System.Collections.Generic.IDictionary<TKey, TValue>*	
+@status*
+""÷
+”
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csX X(
+%11Surfrider.IDatabase"__id*S*Q.
+,Surfrider.Jobs.Recurring.PowerBIFillDatabase"
+DatabaseSurfrider.IDatabaseµ≤
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csX X(9+
+%12$System.Threading.Tasks.Task<TResult>"cSurfrider.IDatabase.ExecuteNonQuery(string, System.Collections.Generic.IDictionary<string, object>)*
+
+%11Surfrider.IDatabase*
+
+commandstring*>
+<
+args4System.Collections.Generic.IDictionary<TKey, TValue>2OExecuteNonQuery(string, System.Collections.Generic.IDictionary<string, object>)*
+1*“
+1Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csY	 Y(	"q
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/PowerBIFillDatabase.csY Y(	
+implicit return:
+	startedOnSystem.DateTime:2
+status(Surfrider.Jobs.Recurring.OperationStatus:+
+log$Microsoft.Extensions.Logging.ILoggerB0".
+,Surfrider.Jobs.Recurring.PowerBIFillDatabase

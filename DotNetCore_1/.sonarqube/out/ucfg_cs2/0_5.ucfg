@@ -1,0 +1,68 @@
+
+îSurfrider.Common.Extensions.DictionaryExtensions.GetOrDefaultCaseInsensitive<TValue>(System.Collections.Generic.IDictionary<string, TValue>, string)Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/DictionaryExtension.cs% %(8"0*À
+0Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/DictionaryExtension.cs' ((Iô
+ñ
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/DictionaryExtension.cs(* ((@
+%0string"string.ToUpperInvariant()*
+
+keystring≈¬
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/DictionaryExtension.cs( ((J
+
+%1bool"RSystem.Collections.Generic.IDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*D
+B
+
+dictionary4System.Collections.Generic.IDictionary<TKey, TValue>*
+
+%0string*
+
+objTValue2TryGetValue(TKey, out TValue)*
+1
+2*Ò
+1Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/DictionaryExtension.cs(M ((PÑ
+Å
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/DictionaryExtension.cs(M ((P
+%3TValue"__id*
+
+objTValueÉ
+Ä
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/DictionaryExtension.cs(M ((P
+%2TValue"__id*
+
+%3TValue*
+3*‘
+2Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/DictionaryExtension.cs(S ((br
+p
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/DictionaryExtension.cs(S ((b
+%4"__id*
+""z
+x
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/DictionaryExtension.cs(S ((b
+%2TValue"__id*
+
+%4*
+3*Õ
+3Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/DictionaryExtension.cs)	 )(	"l
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/DictionaryExtension.cs( ((c
+
+%2TValue*“
+4Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/DictionaryExtension.cs)	 )(	"q
+Z
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_1/DictionaryExtension.cs) )(	
+implicit return:B
+
+dictionary4System.Collections.Generic.IDictionary<TKey, TValue>:
+keystringB4"2
+0Surfrider.Common.Extensions.DictionaryExtensions

@@ -1,0 +1,1 @@
+/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/.sonarqube/out/0

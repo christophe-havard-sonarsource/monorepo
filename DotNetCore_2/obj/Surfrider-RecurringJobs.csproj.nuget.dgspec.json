@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Surfrider-RecurringJobs.csproj": {}
+  },
+  "projects": {
+    "/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Surfrider-RecurringJobs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Surfrider-RecurringJobs.csproj",
+        "projectName": "Surfrider-RecurringJobs",
+        "projectPath": "/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Surfrider-RecurringJobs.csproj",
+        "packagesPath": "/Users/christophehavard/.nuget/packages/",
+        "outputPath": "/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/christophehavard/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Azure.Security.KeyVault.Secrets": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[4.1.3.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

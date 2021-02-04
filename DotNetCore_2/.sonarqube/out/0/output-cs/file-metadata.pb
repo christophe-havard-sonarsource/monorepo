@@ -1,0 +1,9 @@
+Y
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/DictionaryExtension.csutf-8L
+C/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/Helper.csutf-8O
+F/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/IDatabase.csutf-8U
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/OperationStatus.csutf-8U
+L/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PostgreDatabase.csutf-8Y
+P/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/PowerBIFillDatabase.csutf-8Œ
+€/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/obj/Debug/netcoreapp3.0/.NETCoreApp,Version=v3.0.AssemblyAttributes.csutf-8„
+y/Users/christophehavard/Sonar/Repos/Monorepo/DotNetCore_2/obj/Debug/netcoreapp3.0/Surfrider-RecurringJobs.AssemblyInfo.csutf-8
