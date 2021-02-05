@@ -24,6 +24,7 @@ public static class Helper {
                 return GetKeyVaultConnectionString("db-plastico-dev-connectionstring");
             else
                 return Environment.GetEnvironmentVariable("postgre_connection");
+            return "toto";
         }
         // I add another useless code line
         public static void DoNothing(string useless){
