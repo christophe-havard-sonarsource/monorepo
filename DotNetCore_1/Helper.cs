@@ -24,16 +24,12 @@ public static class Helper {
                 return GetKeyVaultConnectionString("db-plastico-dev-connectionstring");
             else
                 return Environment.GetEnvironmentVariable("postgre_connection");
+            return "toto";
         }
         // I add another useless code line
         public static void DoNothing(string useless){
              // do nothing
-        }
-        public static int ComputeWithSomeRecursion(int num, int inc)
-        {
-            num = num * ComputeWithSomeRecursion(num, inc-1);
-            
-            return num;
+             throw new NotImplementedException();
         }
 }
 }
